@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="242" height="96" viewBox="638 190 242 96" role="img" aria-label="sumitsainidsa on LeetCode" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>sumitsainidsa on LeetCode</title>
+  <rect width="880" height="460" rx="18" fill="#07070d" />
+  <g id="leetcode" transform="translate(638 190)">
+    <a href="https://leetcode.com/u/sumitsainidsa/">
+      <title>LeetCode · sumitsainidsa</title>
+      <rect x="8" y="10" width="180" height="80" rx="14" fill="#11111d" stroke="#2a2a44" />
+      <text x="25" y="52" fill="#ffd18a" font-size="23" font-weight="750" letter-spacing="-.5">LeetCode</text>
+      <text x="25" y="75" fill="#b8bbcc" font-size="12" font-weight="450" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace">sumitsainidsa</text>
+      <g transform="translate(153 25) scale(.82)">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+          <path d="m15 2-9 9a4 4 0 0 0 0 6l4 4q2.5 2 5.5-.8l2-2" stroke="#ffc66e" />
+          <path d="m8.5 8.5 3-3q2-1.5 4 .4l2.5 2.4" stroke="#f4f1ff" />
+          <path d="M10 14h11" stroke="#aab2cf" />
+        </g>
+      </g>
+    </a>
+  </g>
+</svg>

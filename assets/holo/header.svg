@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" viewBox="0 0 880 190" role="img" aria-label="Sumit Saini · @sumitsaini03 · Delhi Technological University" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>Sumit Saini · @sumitsaini03 · Delhi Technological University</title>
+  <style>
+    .sway { transform-origin: 220px 430px; animation: sway 6s ease-in-out infinite; }
+    .sheen { animation: sheen 4s ease-in-out infinite; }
+    @keyframes sway { 0%, 100% { transform: rotate(-1.2deg); } 50% { transform: rotate(1.2deg); } }
+    @keyframes sheen { 0% { transform: skewX(-18deg); } 55%, 100% { transform: skewX(-18deg) translateX(780px); } }
+    @media (prefers-reduced-motion: reduce) { .sway, .sheen { animation: none; } }
+  </style>
+  <defs>
+    </defs>
+  <defs>
+    <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed" />
+      <stop offset=".35" stop-color="#22d3ee" />
+      <stop offset=".65" stop-color="#4ade80" />
+      <stop offset="1" stop-color="#f472b6" />
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0" />
+      <stop offset=".5" stop-color="#fff" stop-opacity=".5" />
+      <stop offset="1" stop-color="#fff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="40" y="30" width="360" height="400" rx="22" />
+    </clipPath>
+  </defs>
+  <rect width="880" height="460" rx="18" fill="#07070d" />
+  <g class="sway" id="collector">
+    <g clip-path="url(#card)">
+      <rect x="40" y="30" width="360" height="400" fill="url(#foil)" />
+      <rect x="48" y="38" width="344" height="384" rx="16" fill="#0b0b16" opacity=".9" />
+      <text x="64" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif" font-size="26" font-weight="700" fill="#ffffff">Sumit Saini</text>
+      <path d="m370 61 2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#facc15">★ 0</path>
+      <defs>
+        <clipPath id="holo-face">
+          <rect x="64" y="96" width="312" height="190" rx="12" />
+        </clipPath>
+      </defs>
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAGkAQMAAABEgsN2AAAABlBMVEXw8PC50WUR00I6AAAAcElEQVR42u3XMQ6AIAxAUTDcg/vfwoMJutStcWDS+N5EWn6YKQUAAAAAgP+q+XTGYbR0vy29pVKpVCqVSqVSqVQqlUqlUqlUKpVKpVKpVCoAAAB4mX6GPQb1Hhz5FT96lUqlUqlUKpVKpVJ9pQIAnl0Fmx5JuIIRuwAAAABJRU5ErkJggg==" x="64" y="96" width="312" height="190" preserveAspectRatio="xMidYMid slice" clip-path="url(#holo-face)" />
+      <rect x="64" y="96" width="312" height="190" rx="12" fill="url(#foil)" opacity=".16" />
+      <text x="64" y="312" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#a5b4fc" letter-spacing=".14em">COMMON · 14 REPOS · SINCE 2025</text>
+      <rect class="sheen" x="-180" y="30" width="150" height="400" fill="url(#sheen)" transform="skewX(-18)" />
+    </g>
+    <rect x="40" y="30" width="360" height="400" rx="22" fill="none" stroke="url(#foil)" stroke-width="3" />
+  </g>
+  <g id="identity" transform="translate(440 0)">
+    <text x="10" y="74" fill="#9ddcfa" font-size="12" font-weight="600" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.7">COLLECTOR'S EDITION · 2026</text>
+    <text x="10" y="128" fill="#fff" font-size="44" font-weight="800" letter-spacing="-1">@sumitsaini03</text>
+    <text x="10" y="158" fill="#aeb1c0" font-size="15" font-weight="400">STUDENT AT DELHI TECHNOLOGICAL UNIVERSITY</text>
+  </g>
+</svg>

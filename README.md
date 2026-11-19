@@ -1,93 +1,43 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Sumit Saini — DTU student focused on AI, machine learning and data analytics. From data to intelligence, built to be understood." />
+<!-- Each linked tile occupies its own region of the 880 × 460 illustration. Keep neighboring image tags adjacent. -->
+<p>
+  <img width="100%" align="top" src="./assets/holo/header.svg" alt="Sumit Saini · @sumitsaini03 · Collector’s Edition 2026 · Student at Delhi Technological University" /><br />
+  <img width="50%" align="top" src="./assets/holo/portrait-center.svg" alt="" /><a href="https://www.linkedin.com/in/sumit-saini-2711b83b0/"><img width="22.5%" align="top" src="./assets/holo/linkedin.svg" alt="Sumit Saini on LinkedIn" /></a><a href="https://leetcode.com/u/sumitsainidsa/"><img width="27.5%" align="top" src="./assets/holo/leetcode.svg" alt="sumitsainidsa on LeetCode" /></a><br />
+  <img width="72.5%" align="top" src="./assets/holo/card-base.svg" alt="Python, Go and C++. 116 GitHub contributions as of November 19, 2026." /><a href="https://x.com/SumitSainifzxs"><img width="27.5%" align="top" src="./assets/holo/twitter.svg" alt="@SumitSainifzxs on X (Twitter)" /></a>
 </p>
 
-# Sumit Saini
+<p>
+  <img width="100%" src="./assets/holo/about.svg" alt="About Sumit Saini · Student at Delhi Technological University, working on ProfileMaxxxing in Delhi, India." />
+</p>
 
-**AI / Machine learning / Data analytics · Delhi Technological University · Delhi, India**
+<p>
+  <a href="https://github.com/sumitsaini03/sumitsaini03"><img width="49%" src="./assets/holo/repo-sumitsaini03.svg" alt="sumitsaini03 · AI, machine learning and data analytics at DTU" /></a>
+  <a href="https://github.com/sumitsaini03/ProfileMaxxxing"><img width="49%" src="./assets/holo/repo-profilemaxxxing.svg" alt="ProfileMaxxxing repository" /></a>
+  <br />
+  <a href="https://github.com/sumitsaini03/LIMB-BREAK"><img width="49%" src="./assets/holo/repo-limb-break.svg" alt="LIMB-BREAK repository" /></a>
+  <a href="https://github.com/sumitsaini03/LIMB-BREAL"><img width="49%" src="./assets/holo/repo-limb-breal.svg" alt="LIMB-BREAL repository" /></a>
+</p>
 
-[Selected projects](#selected-projects) &nbsp; / &nbsp; [My toolkit](#my-toolkit) &nbsp; / &nbsp; [More experiments](#more-experiments) &nbsp; / &nbsp; [GitHub](https://github.com/sumitsaini03)
+<p>
+  <img width="100%" src="./assets/holo/powers.svg" alt="Language powers · Python 63%, Go 27%, C++ 6%, Jupyter Notebook 2%, Wolfram Language 1%" />
+</p>
 
-I build projects that connect **data, models, and useful decisions**: churn analysis with model explanations, policy-grounded conversational agents, and reproducible LLM experiments. I'm a student at **Delhi Technological University**, developing my work across AI/ML and analytics.
-
-I care about the full path: preparing the data, evaluating the model, explaining the result, and making the work reproducible.
-
-## Selected projects
-
-<a href="https://github.com/sumitsaini03/Telecom-Retention-Intelligence"><img src="./assets/telecom.svg" width="100%" alt="Telecom Retention Intelligence — Python, XGBoost, SHAP and PostgreSQL. Repository-reported holdout ROC-AUC: 0.8465 on 1,409 customers." /></a>
-
-### Telecom Retention Intelligence
-
-An end-to-end analytics project on the IBM Telco sample: data validation, customer segmentation, logistic regression and XGBoost comparison, TreeSHAP explanations, and PostgreSQL analysis.
-
-- **Evidence:** repository-reported XGBoost ROC-AUC of **0.8465** on **1,409 held-out customers**. Threshold selection uses training out-of-fold predictions.
-- **Engineering:** a reusable inference pipeline, data-quality checks, SQL/Pandas parity checks, and documented evaluation artifacts.
-- **Scope:** an observational portfolio project; results do not establish campaign impact. Power BI report files are implemented, with Desktop rendering and refresh still unverified.
-
-[Explore the repository](https://github.com/sumitsaini03/Telecom-Retention-Intelligence) · [Inspect evaluation results](https://github.com/sumitsaini03/Telecom-Retention-Intelligence/blob/main/outputs/metrics.json)
+<p>
+  <img width="100%" src="./assets/holo/season.svg" alt="26-week contribution calendar through November 19, 2026. 116 contributions this year, current streak 0 days, longest streak this year 6 days." />
+</p>
 
 <details>
-<summary><strong>See the project's analysis outputs</strong></summary>
+<summary><strong>Explore my AI and analytics projects</strong></summary>
 
-![Holdout ROC and precision-recall curves](https://raw.githubusercontent.com/sumitsaini03/Telecom-Retention-Intelligence/main/outputs/roc_pr_curves.png)
+I study at Delhi Technological University and build projects in machine learning, retrieval, and data analysis.
 
-![TreeSHAP feature attributions](https://raw.githubusercontent.com/sumitsaini03/Telecom-Retention-Intelligence/main/outputs/shap_summary.png)
-
-These are the project's saved Python analysis outputs. SHAP describes model associations, not causal effects.
-
-</details>
-
-<a href="https://github.com/sumitsaini03/VoiceOps-2026-ZentroMart"><img src="./assets/voiceops.svg" width="100%" alt="VoiceOps — policy-grounded customer support with retrieval, verification, conversation state and speech integration." /></a>
-
-### VoiceOps / ZentroMart
-
-A customer-support agent built for the **IIT Guwahati Consulting & Analytics Club × Gnani.ai capstone**. It combines policy-aware retrieval, conversation state, order-verification gates, and escalation logic across text and voice interfaces.
-
-- **What matters:** current policies take precedence over superseded documents; low-evidence questions have a handover path.
-- **Built with:** Python, TF-IDF retrieval, modular agent logic, and Gnani speech integration.
-- **Scope:** live speech requires configured provider credentials.
-
-[Explore the agent](https://github.com/sumitsaini03/VoiceOps-2026-ZentroMart) · [Read the retrieval implementation](https://github.com/sumitsaini03/VoiceOps-2026-ZentroMart/blob/main/src/retrieval.py)
-
-<a href="https://github.com/sumitsaini03/CyberSecMax"><img src="./assets/cybersec.svg" width="100%" alt="CyberSecMax — reproducible cybersecurity QLoRA experiment pipeline for Qwen2.5. Training and benchmark execution are pending." /></a>
-
-### CyberSecMax
-
-A reproducible **defensive cybersecurity QLoRA experiment pipeline** for Qwen2.5-7B-Instruct. The project prepares baseline comparison, data validation, contamination checks, checkpoint recovery, and paired evaluation under a frozen CyberMetric-500 protocol.
-
-**Status: experiment implementation, pending execution.** No completed training run, trained adapter, or benchmark improvement is claimed.
-
-[Explore the experiment](https://github.com/sumitsaini03/CyberSecMax) · [Read the verification report](https://github.com/sumitsaini03/CyberSecMax/blob/main/VERIFICATION_REPORT.md)
-
-## My toolkit
-
-<img src="./assets/toolkit.svg" width="100%" alt="Python, SQL, Pandas, NumPy, Jupyter; XGBoost, scikit-learn, SHAP; RAG, llama.cpp, GGUF, Git, PostgreSQL and Go." />
-
-**Data:** Python, SQL, Pandas, NumPy, PostgreSQL  
-**ML & evaluation:** scikit-learn, XGBoost, SHAP  
-**Applied AI:** retrieval, conversational agents, llama.cpp, GGUF  
-**Engineering:** Git, testing, APIs, Go
-
-## More experiments
-
-| Project | What to explore |
+| Project | What you can inspect |
 | --- | --- |
-| [Local LLM Lab](https://github.com/sumitsaini03/local-llm-lab) | A Python text rewriter connected to a locally hosted quantized model through llama.cpp. |
-| [TaskQueue](https://github.com/sumitsaini03/task_queue) | Go systems work: a concurrent queue with write-ahead logging, retries, scheduling, and metrics. |
-| [LeetCode solutions](https://github.com/sumitsaini03/leetcode-solutions) | C++ problem-solving practice. |
-
-<details>
-<summary><strong>How I approach a project</strong></summary>
-
-1. Start with a question the data or system can actually answer.
-2. Build a reproducible path from input to result.
-3. Separate measured evidence from assumptions and planned work.
-4. Document the limits so someone else can evaluate and extend it.
+| [Telecom Retention Intelligence](https://github.com/sumitsaini03/Telecom-Retention-Intelligence) | A churn model evaluated on 1,409 held-out customers, with a reported ROC-AUC of 0.8465. The repository includes SHAP explanations and SQL analysis. |
+| [VoiceOps / ZentroMart](https://github.com/sumitsaini03/VoiceOps-2026-ZentroMart) | A customer-support agent that retrieves store policies, verifies orders, and hands uncertain cases to a person. |
+| [CyberSecMax](https://github.com/sumitsaini03/CyberSecMax) | A reproducible QLoRA experiment for defensive cybersecurity. The data checks and evaluation protocol are implemented. Training and benchmark results are pending. |
 
 </details>
 
-<br />
+[All repositories](https://github.com/sumitsaini03?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/sumit-saini-2711b83b0/) · [LeetCode](https://leetcode.com/u/sumitsainidsa/) · [X](https://x.com/SumitSainifzxs)
 
-<img src="./assets/footer.svg" width="100%" alt="Let's build something worth exploring. AI, machine learning and data — ideas with a practical purpose." />
-
-<p align="center"><a href="https://github.com/sumitsaini03?tab=repositories"><strong>Explore all my repositories</strong></a> &nbsp; · &nbsp; <a href="https://github.com/sumitsaini03">Follow my work</a></p>
+<sub>Holo Card · collector’s edition · inspired by <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub>

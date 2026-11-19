@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="880" height="230" role="img" aria-labelledby="title" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title id="title">About Sumit Saini · Student at Delhi Technological University, Delhi, India</title>
+  <defs>
+    <linearGradient id="foil" x2="1" y2="1">
+      <stop stop-color="#7c3aed"/>
+      <stop offset=".35" stop-color="#22d3ee"/>
+      <stop offset=".65" stop-color="#4ade80"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <clipPath id="avatar">
+      <circle cx="782" cy="115" r="61"/>
+    </clipPath>
+  </defs>
+  <rect x="1" y="1" width="878" height="228" rx="22" fill="#0b0b16" stroke="url(#foil)" stroke-width="2"/>
+  <text x="36" y="54" fill="#9ddcfa" font-size="12" font-weight="600" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.7">COLLECTOR CARD</text>
+  <text x="36" y="101" fill="#fff" font-size="30" font-weight="750">Sumit Saini</text>
+  <text x="36" y="137" fill="#e2e2eb" font-size="17" font-weight="400">STUDENT AT DELHI TECHNOLOGICAL UNIVERSITY. Working on</text>
+  <text x="36" y="162" fill="#e2e2eb" font-size="17" font-weight="400">ProfileMaxxxing right now.</text>
+  <text x="36" y="192" fill="#b1b5d1" font-size="12" font-weight="450" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace">DELHI, INDIA · 2 followers · 14 repositories · ★ 0 stars</text>
+  <circle cx="782" cy="115" r="65" fill="url(#foil)"/>
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAGkAQMAAABEgsN2AAAABlBMVEXw8PC50WUR00I6AAAAcElEQVR42u3XMQ6AIAxAUTDcg/vfwoMJutStcWDS+N5EWn6YKQUAAAAAgP+q+XTGYbR0vy29pVKpVCqVSqVSqVQqlUqlUqlUKpVKpVKpVCoAAAB4mX6GPQb1Hhz5FT96lUqlUqlUKpVKpVJ9pQIAnl0Fmx5JuIIRuwAAAABJRU5ErkJggg==" x="721" y="54" width="122" height="122" clip-path="url(#avatar)"/>
+</svg>

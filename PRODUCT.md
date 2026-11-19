@@ -1,20 +1,5 @@
-# Product
-<!-- impeccable:product-schema 1 -->
+# ProfileMaxxxing
 
-## Platform
-web
+This repository presents Sumit Saini’s GitHub portfolio as a holographic collector card. Readers can open his LinkedIn, LeetCode, or X profile directly from the first card, explore the four repositories shown in the reference, and view his language mix and GitHub activity.
 
-## Stack
-GitHub Markdown with repository-local SVG assets. A GitHub-style local HTML preview is for inspection only.
-
-## Users and purpose
-Recruiters and developers evaluating Sumit Saini's AI/ML and data-analytics projects. The user explicitly selected AI/ML and data analytics as the priority.
-
-## Brand commitments
-Replicate the Abhishek profile's cinematic orbital and glass style, using Sumit's identity and actual projects. Preserve the requested visual reference rather than replacing it with a randomly chosen website direction.
-
-## Evidence
-Public GitHub profile: Sumit Saini, student at Delhi Technological University, Delhi. Primary projects: Telecom-Retention-Intelligence, VoiceOps-2026-ZentroMart, CyberSecMax. Secondary: local-llm-lab and task_queue. No contact email, LinkedIn address, degree specialization, employment history or hiring availability was verified; none is invented.
-
-## Constraints
-GitHub controls the surrounding UI and strips arbitrary page CSS/scripts. The profile README must be in a public repository named sumitsaini03. ProfileMaxxxing is the user's requested design-source repository. A static document needs no live TypeSafe API call or runtime AI dependency.
+The displayed metrics are a snapshot from 19 November 2026. The season panel uses GitHub’s public contribution calendar. Its grid covers 26 Sunday-based weeks, ending in the partial week of the snapshot date. The contribution total and longest streak cover the calendar year through that date.

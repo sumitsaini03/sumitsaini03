@@ -1,21 +1,15 @@
-# Design
+# Holo Card design
 
-A faithful adaptation of the previously produced Abhishek profile: a deep-space field, an orbital sculpture, oversized name, translucent glass panels, and cyan/lilac/amber highlights. Sumit's own AI work replaces every Abhishek-specific claim and link.
+The identity card uses Sumit’s supplied GitSkins portrait, language icons, foil frame, and animated sheen. The README follows the reference’s sequence of biography, four repository cards, language powers, and contribution history. The artwork uses the dark collector-card palette in both GitHub themes.
 
-Palette: #071326, #211337, #8af5ee, #efb3ff, #ffce92, #eef6ff. Portable Segoe UI / Arial type within SVGs. Native Markdown supplies accessible headings, selectable descriptions, working links and mobile-readable detail.
+| Element | Colour |
+| --- | --- |
+| Card background | `#07070d` |
+| Social tiles | `#11111d` with a `#2a2a44` outline |
+| Foil edge | `#7c3aed` → `#22d3ee` → `#4ade80` → `#f472b6` |
+| LinkedIn, LeetCode, X | `#94cbff`, `#ffd18a`, `#c4c1ff` |
+| Contribution count | `#74ead5` |
 
-## Skill application
-- design-taste-frontend: repository inventory, evidence-led section order, type hierarchy, real project outputs and browser inspection. Its dealt type-only direction conflicts with the explicit orbital/glass replica request, so the supplied reference takes precedence. Website-only scroll scenes and image-count floors do not define a GitHub document.
-- impeccable: product context, existing-world preservation, reduced motion, semantic content, responsive checks and final detector pass. This is a precisely specified adaptation of an established artifact, not a new identity or standalone website.
-- typesafe-ai: live documentation reviewed. No inference integration is needed for this static README; no keys, inference results or runtime API dependencies are added.
+GitHub displays each SVG as an image. The three profile links are HTML anchors around individual regions of the identity card. The six regions share a single coordinate system, and the portrait honors reduced-motion preferences.
 
-## Surface brief
-Mode: Experience with readable project evidence. Flow: identity and focus, evaluated analytics project, conversational AI, explicitly pending model experiment, toolkit, supporting work. Native details sections let visitors inspect evidence. Recruiter priority: AI/ML and data analytics, confirmed by the user.
-
-One restrained orbital animation provides motion. It honors reduced-motion preferences and remains complete at rest. SVG artwork uses no scripts, embedded HTML, external fonts or remote images. The toolkit is repeated as native text for mobile readability.
-
-## Sources and claims
-All project links target the user's original, non-fork repositories. Telecom ROC-AUC and holdout size come from outputs/metrics.json. Power BI Desktop verification remains pending. CyberSecMax has no completed fine-tuning result. Voice integration requires provider credentials. No throughput, deployment, hiring status or business impact is invented.
-
-## Maintenance
-Run `python scripts/generate_assets.py` to regenerate all six assets. Edit README.md for the narrative and links. Update alt text whenever asset content changes. No hosted badge service is required for the core presentation.
+Edit the complete header in [artwork/holo-id.svg](artwork/holo-id.svg). Rebuild its image regions with `python scripts/slice_holo.py`. The other panels are editable SVGs under [assets/holo](assets/holo). All visible assets are served from this repository.

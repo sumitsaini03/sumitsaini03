@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="198" height="96" viewBox="440 190 198 96" role="img" aria-label="Sumit Saini on LinkedIn" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>Sumit Saini on LinkedIn</title>
+  <rect width="880" height="460" rx="18" fill="#07070d" />
+  <g id="linkedin" transform="translate(440 190)">
+    <a href="https://www.linkedin.com/in/sumit-saini-2711b83b0/">
+      <title>LinkedIn · Sumit Saini</title>
+      <rect x="10" y="10" width="180" height="80" rx="14" fill="#11111d" stroke="#2a2a44" />
+      <text x="27" y="52" fill="#94cbff" font-size="23" font-weight="750" letter-spacing="-.5">LinkedIn</text>
+      <text x="27" y="75" fill="#b8bbcc" font-size="12" font-weight="450" font-family="ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace">Sumit Saini</text>
+      <g transform="translate(155 25) scale(.82)">
+        <rect width="22" height="22" rx="4" fill="#90caff" />
+        <g fill="#11111d">
+          <circle cx="5.5" cy="6" r="1.6" />
+          <path d="M4 9h3v9H4zm5 0h3v1.3a3.8 3.8 0 0 1 6.5 2.8V18h-3v-4.6q0-1.9-1.6-1.9T12 13.6V18H9z" />
+        </g>
+      </g>
+    </a>
+  </g>
+</svg>
