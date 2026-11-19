@@ -1,6 +1,6 @@
 # Holo Card design
 
-The identity card uses Sumit’s supplied GitSkins portrait, language icons, foil frame, and animated sheen. The README follows the reference’s sequence of biography, four repository cards, language powers, and contribution history. The artwork uses the dark collector-card palette in both GitHub themes.
+The identity card uses Sumit’s current GitHub avatar in the supplied GitSkins frame, with language icons and animated sheen. The README follows the reference’s sequence of biography, four repository cards, language powers, and contribution history. The artwork uses the dark collector-card palette in both GitHub themes.
 
 | Element | Colour |
 | --- | --- |

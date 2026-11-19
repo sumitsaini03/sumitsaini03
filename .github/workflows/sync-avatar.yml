@@ -1,0 +1,40 @@
+name: Sync GitHub profile picture
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-avatar.yml'
+      - 'scripts/sync_avatar.py'
+      - 'scripts/slice_holo.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-profile-avatar
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'sumitsaini03/sumitsaini03' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - name: Refresh both portraits
+        run: python3 scripts/sync_avatar.py
+      - name: Publish changed artwork
+        run: |
+          git add -- artwork/holo-id.svg assets/holo/about.svg assets/holo/header.svg assets/holo/portrait-center.svg assets/holo/card-base.svg
+          if git diff --cached --quiet; then
+            echo "Both portraits are current."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Sync GitHub profile picture'
+          git push origin HEAD:main

@@ -40,4 +40,4 @@ I study at Delhi Technological University and build projects in machine learning
 
 [All repositories](https://github.com/sumitsaini03?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/sumit-saini-2711b83b0/) · [LeetCode](https://leetcode.com/u/sumitsainidsa/) · [X](https://x.com/SumitSainifzxs)
 
-<sub>Holo Card · collector’s edition · inspired by <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub>
+<sub>© 2026 Sumit Saini · <a href="./COPYRIGHT.md">Artwork and reuse</a> · Holo Card inspired by <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub>
